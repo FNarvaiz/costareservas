@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width= device-width, initial-scale=1"/>
+		<title>ABM Platos</title>
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" href="css/estilo.css"/>
+		<link rel="stylesheet" href="css/clases.css"/>
+		<link rel="stylesheet" href="css/mediaquery.css"/>
+		<link rel="stylesheet" href="css/fuentes.css"/>
+		<link rel="stylesheet" href="css/css_clima.css"/>
+		<script src='js/jquery.min.js'/></script>
+        <script src="js/index.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/clima.js"></script>
+	</head>
+
+	<body>
+		<header id="HeaderFijo">
+			<nav id="ppal">				
+				<ul>
+					<li><button class="btn003 button agregar verde sombra-g" type="button" id="agregar">Atras</button></li>
+					<li><button class="btn003 button agregar verde sombra-g" type="button" id="agregar">Abm Art</button></li>
+					<li><button class="btn003 button agregar verde sombra-g" type="button" id="agregar">Login</button></li>
+					<li><button class="btn003 button agregar verde sombra-g" type="button" id="agregar">Mesas</button></li>
+					<li><button class="btn003 button agregar verde sombra-g" type="button" id="agregar">Articulos</button></li>
+					<li><button class="btn003 button agregar verde sombra-g" type="button" id="agregar">Mesa</button></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="espacioFixed"></section>
+		<section class="cContenedorPrincipal">
+			<article class="cAbm">
+				<header><h1>PLATO #1225668</h1></header>
+				<section class="cContenedorSecundario">
+					<label class="cLabel">Nombre: </label>
+					<textarea class="cTextbox" type="text" id="myText" value="Canelones de verdura y pollo a la super provenzal con papas a la española"/></textarea> 
+				</section>
+				<section class="cContenedorSecundario">
+					<label class="cLabel">Precio: $</label>
+					<input class="cTextbox" type="text" id="myText" value="250"/>
+				</section>
+				<section class="cContenedorSecundario">
+					<label class="cLabel">Descripción: </label>
+					<textarea class="cTextbox cDescripcion " type="text" id="myText" value="Canelones de verdura"/></textarea> 
+				</section>
+				<section class="cContenedorSecundario">
+					<input class="btn001 azul button sombra-g" type="button" id="guardar" value="Guardar">
+					<input class="btn001 rojo button sombra-g" type="button" id="cancelar" value="Cancelar">
+				</section>
+			</article>			
+		</section>		
+	</body>	
+</html>

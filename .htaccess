@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^costareservas.com [NC]
+RewriteRule ^(.*)$ https://www.costareservas.com/$1 [L,R=301]
+<IfModule mod_rewrite.c>
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://www.costareservas.com/$1 [R=301,L,QSA]
+</IfModule>

@@ -1,0 +1,93 @@
+*{
+	font-family: 'source_sans_prolight';
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-weight: lighter;
+	text-decoration: none;
+	color: #fff;
+}
+
+/* BODY - HEADER*/
+
+body{
+	text-align: center;
+	background-color: #F1F6F5;
+}
+header#HeaderFijo{
+	background-color: #143A52;
+    width: 100%;
+    min-height: 60px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+nav#ppal{
+	height: 50px;
+	width: 100%;
+	max-width: 100%;
+	position: fixed;
+}
+nav ul li{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1em;
+}
+nav ul li a{
+	padding: 10px;
+}
+div#EspaciadorHeaderNav{
+	height: 65px;
+}
+footer{
+	background-color: #143A52;
+	padding: 10px 0px 10px 0px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+section#footer{
+	width: 90%;
+	display: inline-block;
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    background-color: #143A52;
+    display: inline-block;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;    
+	font-size: 1em;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #009378;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #009378;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}

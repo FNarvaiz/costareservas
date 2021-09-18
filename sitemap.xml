@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+<url>
+  <loc>http://www.costareservas.com/</loc>
+  <xhtml:link rel="alternate" hreflang="es-ar" href="http://www.costareservas.com/"/>
+  <lastmod>2016-10-18T17:11:25+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.costareservas.com/index.html</loc>
+  <lastmod>2016-10-18T17:11:25+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.costareservas.com/funciones.html</loc>
+  <lastmod>2016-10-18T15:46:01+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.costareservas.com/nosotros.html</loc>
+  <lastmod>2016-10-18T15:46:02+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.costareservas.com/contact.php</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>
