@@ -1,3 +1,0 @@
-data source=NombreUsuario\SQLEXPRESS;initial catalog=HOTEL_LUGRA
-
-
