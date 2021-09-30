@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="BookerPlus.exe" version="1.0.0.51" publicKeyToken="0000000000000000" language="es-AR" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="BookerPlus.exe" version="1.0.0.53" publicKeyToken="169d9f3567300369" language="es-AR" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="BOOKER_escritorio.ico" asmv2:publisher="Equipo de CostaReservas" co.v1:suiteName="Sistemas para hoteles" asmv2:product="CostaReservas" asmv2:supportUrl="http://www.fnarvaiz.com/contact.php" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -44,14 +44,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BookerPlus.exe" size="1012736">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BookerPlus.exe" size="1013832">
       <assemblyIdentity name="BookerPlus" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5Vfsg5x9GVnfmz7FRCqjVfGGe/iHQK9WW4w+FwUOzZk=</dsig:DigestValue>
+        <dsig:DigestValue>/fhIjiXoe05VqPdjxfgLNlqQ/l5r0CCABLhDr5/ok6s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -207,7 +207,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XxOEC2m7aGRrAMC1TYDK9qpVLugpP02b8+T9nGnmrlo=</dsig:DigestValue>
+        <dsig:DigestValue>+rWlOcBJOsw18VumKJTzMKaOO/wMnu10CWAy3UIWTtI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -253,13 +253,13 @@
       <dsig:DigestValue>Oo4U6FBUsey15d1fMbJS/YCJdbIxJNjIAOcgxBWpltU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="coneccion.txt" size="70">
+  <file name="coneccion.txt" size="71">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>4xY+JOjK68Jn4vppUbJomsTa1knXmxfCQDMPaSzthF0=</dsig:DigestValue>
+      <dsig:DigestValue>1m2z0BdijLMUvbVbObJnC2+tkqaxQbQQZyoTkDk0rks=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Covid_19.pdf" size="315132">
@@ -271,4 +271,4 @@
       <dsig:DigestValue>wnjBKJEepAYMcMCXje5E3dW7bhDr/UJ+GEqC/uO27LM=</dsig:DigestValue>
     </hash>
   </file>
-</asmv1:assembly>
+<publisherIdentity name="CN={C79EDC7E-A17C-41AE-8A30-19609FAE1BD7}" issuerKeyHash="0a39d1bfa7f157651d3808267f4ad92f3e15f56d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W5cqPL1D759AhOnbgGEWdUDC+0LsgpChtffvB6ShyGw=</DigestValue></Reference></SignedInfo><SignatureValue>seAqzjzNXWjPlM2wGsgL0ybkNNMteO+KWHDHFPGvx2gRrNnotWRZGy7LE1R1fLFcjNhlgk44zgZC48mu0lVSELUYcHMNFZbvf1JVL6k40R/FeXhew1fw9z6uwO+K/xKeQXec4wp0xRwNNqPe5h5y0KHmiI9IKkF3XU9/F56TwCw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t6InnzjB/etu29m4NDdJnnwQkW47CCjy9Aeyl4fsJxtSYuOmHUcm1QoZpgtKCFRTuut3z4NnIiTVBZBA7JfUMWfiU7HSQ7Hn0tmAJ+KSDlZDcAqhB6yV50QtBSCeSd89PmfCEnc2WYW2RJCxxNoMXoCMFVxFu4Xt+auCipdM54U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6cc8a1a407eff7b5a19082ec42fbc24075166180dbe984409fef43bd3c2a975b" Description="" Url=""><as:assemblyIdentity name="BookerPlus.exe" version="1.0.0.53" publicKeyToken="169d9f3567300369" language="es-AR" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN={C79EDC7E-A17C-41AE-8A30-19609FAE1BD7}</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NDq0GjFWEAiNhPDO1h7PsHrZQQfQ8q0z5OBBbUW/gXE=</DigestValue></Reference></SignedInfo><SignatureValue>XihDNjTQEmNHdw4t9REoWRcgS/5ZIov9fw0Kke4EktVN70vHqGUvidKbol0p3qrvYfY14agXqAyGipbBZGNMhQbED44rMruz3D2mcGHLCFOiUBtKJaQBZ/nR3bNG9dHr0zl0FVy97u1Nc8V5Sl2nBuqzyLugRDwsDp1vcRqtzXA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t6InnzjB/etu29m4NDdJnnwQkW47CCjy9Aeyl4fsJxtSYuOmHUcm1QoZpgtKCFRTuut3z4NnIiTVBZBA7JfUMWfiU7HSQ7Hn0tmAJ+KSDlZDcAqhB6yV50QtBSCeSd89PmfCEnc2WYW2RJCxxNoMXoCMFVxFu4Xt+auCipdM54U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICMTCCAZqgAwIBAgIQcH6Vge6oN71JommnO2lKsDANBgkqhkiG9w0BAQsFADBXMVUwUwYDVQQDHkwAewBDADcAOQBFAEQAQwA3AEUALQBBADEANwBDAC0ANAAxAEEARQAtADgAQQAzADAALQAxADkANgAwADkARgBBAEUAMQBCAEQANwB9MB4XDTIxMDkzMDE5Mzk1NFoXDTIyMTAwMTAxMzk1NFowVzFVMFMGA1UEAx5MAHsAQwA3ADkARQBEAEMANwBFAC0AQQAxADcAQwAtADQAMQBBAEUALQA4AEEAMwAwAC0AMQA5ADYAMAA5AEYAQQBFADEAQgBEADcAfTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAt6InnzjB/etu29m4NDdJnnwQkW47CCjy9Aeyl4fsJxtSYuOmHUcm1QoZpgtKCFRTuut3z4NnIiTVBZBA7JfUMWfiU7HSQ7Hn0tmAJ+KSDlZDcAqhB6yV50QtBSCeSd89PmfCEnc2WYW2RJCxxNoMXoCMFVxFu4Xt+auCipdM54UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQB3vBzezLO6/0qYYXnwXa9bvltSiu6vzH2gQY50Mptcq4T/H3XMZ/prNSwpX6725g1tkDUs71Sw67NMypcWeDWDsi27G6wF961IZKVX5JpR7qknaU0oWjr92MNyLTTedLWDMn4I5ig07JFhDx5o7gXKFt2RYovdE7JRMwyPEdTXoQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
